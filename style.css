@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .heart {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px red;
+    animation: heart 0.6s linear infinite;
+  }
+  
+  
+  
+  @media (max-width: 2200px) {
+    
+  .text{
+    color: yellow;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-right: 2px;
+    
+  
+  }
+  }
+  
+  
+  @media (max-width: 2200px) {
+    
+  .name{
+    color: lightgreen;
+    position: absolute;
+    font-size: 22px ;
+    font-style: oblique;
+  }
+  
+  }
+    
+  @media (max-width: 2200px) {
+  .song{
+    position: absolute;
+  color:orange;
+  margin-top: 550px;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: underline ;
+  
+  margin-left: 75px;
+  margin-right: 70px;
+  }
+  }
+  
+  @media (max-width: 2200px) {
+  .mar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  }
+  
+  @media (max-width: 2200px) {
+  .doremon{
+    height: 80px;
+    margin-top: 300px ;
+    position: absolute;
+    margin-right: 15rem ;
+    border-radius: 15px;
+    
+  }
+  }
+  @media (max-width: 2200px) {
+  .nobita{
+    height: 80px;
+    position: absolute;
+    margin-top: 300px ;
+    display: flex;
+    margin-left: 15rem;
+    border-radius: 15px;
+  
+  }
+  }
+  
+  @media (max-width: 2200px) {
+    .head{
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, green);
+      position: absolute;
+      margin-bottom: 22rem;
+      margin-top: 50px;
+      font-size: 50px;
+      height: 100px;
+      display: flex;
+      border-radius: 15px;
+      
+      align-items: center;
+     
+      }
+  }
+  @media (max-width: 2200px) {
+  .next1{
+    height: 20vh;
+    position: absolute;
+    margin-top:5px;
+    margin-bottom: 700px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    
+  }
+  }
+  
+  @media (max-width: 2200px) {
+  .shailvy{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+    opacity: .9;
+  }
+  }
+  
+  @media (max-width: 2200px) {
+   .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+   }
+  }
+  
+  @media (max-width: 2200px) {
+   #edit{
+    color:springgreen;
+    text-shadow: turquoise;
+    text-decoration: dotted;
+    text-decoration: underline;
+   }
+  }
+  
+  @media (max-width: 2200px) {
+   .lead{
+    margin-right: 5px;
+    border: 2px solid orange;
+   }
+  }
+  
+  @media (max-width: 2200px) {
+    .handshake{
+      height: 400px;
+      width: 50em;
+      border-radius: 20px;
+      display: flex;
+      
+      position: absolute;
+      margin-bottom: 40em;
+      opacity: .8;
+      
+      justify-content: center;
+      align-items: center;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  @keyframes heart {
+    0% {
+        transform: rotate(-45deg) scale(1.00);
+    }
+    80% {
+        transform: rotate(-45deg) scale(0.90);
+    }
+    100% {
+        transform: rotate(-45deg) scale(0.80);
+    }
+  }
+  
+  .heart::before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+    top: -55%;
+    border-radius: 50px;
+    box-shadow: -10px 10px 90px red;
+  }
+  
+  .heart::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+    right: -55%;
+    border-radius: 50px;
+    box-shadow: -10px 10px 90px red;
+  }
